@@ -112,7 +112,7 @@ class MainActivity : AppCompatActivity() {
             txtExppresion.text=""
         }
         if(canClear){
-            txtRultado.text=""
+            txtRultado.text=" "
             txtExppresion.append(string)
         }else{
             txtExppresion.append(txtRultado.text)
